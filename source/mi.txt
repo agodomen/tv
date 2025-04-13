@@ -1,0 +1,60 @@
+小米电视系统相关
+package:com.mitv.screensaver：小米电视的屏保应用，用于在电视闲置时显示屏保画面。
+package:mitv.service：可能是小米电视系统的核心服务集合，为其他功能提供基础支持。
+package:com.mitv.tvhome：小米电视的主界面应用，负责显示电视的主屏幕、应用列表等。
+package:com.mitv.codec.update：用于更新小米电视的视频、音频编解码器，以支持更多格式的媒体文件播放。
+# package:com.xiaomi.mitv.karaoke.service：小米电视的卡拉 OK 服务，提供卡拉 OK 相关功能。
+package:com.xiaomi.mitv.tvplayer：小米电视的视频播放器，用于播放本地或在线视频。
+package:com.xiaomi.mitv.mediaexplorer：小米电视的媒体文件浏览器，可用于浏览本地存储中的图片、视频、音乐等媒体文件。
+package:com.xiaomi.mitv.systemui：小米电视的系统用户界面组件，负责显示系统状态信息、通知栏等。
+package:com.xiaomi.mitv.settings：小米电视的设置应用，用于对电视的各种功能和参数进行设置。
+package:com.xiaomi.mitv.providers.settings：为小米电视设置应用提供数据存储和管理的服务。
+package:com.xiaomi.mitv.smartshare：小米电视的智能共享功能，可实现与其他设备之间的文件共享和投屏等操作。
+package:com.xiaomi.mitv.remotecontroller.service：小米电视的遥控器服务，用于处理遥控器的输入信号。
+package:com.xiaomi.mitv.tvmanager：小米电视的系统管理应用，可对电视的应用、存储、性能等进行管理。
+第三方应用
+package:com.duokan.airkan.tvbox：多看的投屏相关应用，可能用于将手机等设备的内容投屏到电视上。
+package:com.cctv.yangshipin.app.androidp：央视网的 “央视频” 应用，可提供央视的各类直播和视频内容。
+package:com.sohu.inputmethod.sogou.tv：搜狗输入法 TV 版，为电视提供文字输入功能。
+package:top.yogiczy.mytv.tv：这可能是一个第三方开发者开发的电视应用，具体功能需根据应用本身确定。
+# package:com.mipay.wallet.tv：小米支付钱包的电视版，可在电视上进行支付相关操作。
+系统基础组件
+package:com.android.providers.media：Android 系统的媒体内容提供者，负责管理设备上的媒体文件信息，如图片、视频、音乐的元数据。
+package:com.android.externalstorage：用于管理 Android 设备的外部存储（如 SD 卡）的访问和操作。
+package:com.android.providers.downloads：Android 系统的下载管理服务，负责处理应用内的下载任务。
+package:com.android.providers.tv：Android 系统的电视内容提供者，用于管理电视节目、频道等相关信息。
+package:com.android.defcontainer：Android 系统的默认容器服务，与应用安装和管理有关。
+package:com.android.pacprocessor：用于处理代理自动配置（PAC）文件的服务，帮助设备自动获取代理设置。
+package:com.android.certinstaller：Android 系统的证书安装器，用于安装和管理数字证书。
+package:android：Android 系统的基础包，包含了系统的核心类和服务。
+package:com.android.statementservice：与 Android 系统的数字资产链接（Digital Asset Links）有关，用于验证应用和网站之间的关联。
+package:com.android.inputdevices：负责管理 Android 设备的输入设备，如键盘、鼠标等。
+package:com.android.onetimeinitializer：用于执行 Android 系统的一次性初始化任务。
+package:com.android.keychain：Android 系统的密钥链管理服务，用于存储和管理用户的密钥和证书。
+package:com.android.packageinstaller：Android 系统的应用安装器，用于安装和卸载应用程序。
+package:com.android.proxyhandler：处理代理设置的服务，帮助应用程序使用代理服务器进行网络访问。
+package:com.android.managedprovisioning：与 Android 设备的企业管理和设备配置有关，用于实现设备的批量配置和管理。
+package:com.android.vpndialogs：Android 系统的 VPN 对话框，用于配置和连接 VPN 服务。
+package:com.android.shell：Android 系统的 shell 服务，提供命令行交互环境。
+package:com.android.systemui：Android 系统的系统用户界面，负责显示状态栏、导航栏等系统界面元素。
+package:com.android.bluetoothmidiservice：Android 系统的蓝牙 MIDI 服务，用于支持蓝牙 MIDI 设备的连接和使用。
+package:com.android.bluetooth：Android 系统的蓝牙服务，负责蓝牙设备的配对、连接和数据传输。
+package:com.android.captiveportallogin：用于处理 Android 设备在连接到需要认证的 Wi-Fi 网络时的认证登录。
+package:com.android.settings：Android 系统的设置应用，提供系统的基本设置选项。
+其他
+package:com.xm.webcontent：可能是与小米电视的网络内容展示相关的应用。
+package:com.xiaomi.screenrecorder：小米电视的屏幕录制应用，可录制电视屏幕上的内容。
+package:com.xiaomi.voicecontrol：小米电视的语音控制服务，支持通过语音指令控制电视。
+# package:com.xiaomi.mimusic2：小米音乐应用的电视版，可播放音乐。
+package:com.google.android.webview：Google 提供的 WebView 组件，用于在应用中显示网页内容。
+package:com.xiaomi.miplay：小米的投屏和多设备互联服务，可实现设备间的内容共享和控制。
+package:com.xiaomi.devicereport：可能用于小米设备向服务器报告设备状态和使用情况等信息。
+package:com.mitv.videoplayer：小米电视的视频播放应用，用于播放视频文件。
+package:com.mitv.care：可能是小米电视的系统维护和优化相关应用。
+package:com.mstar.android.providers.tv：MStar 芯片相关的电视内容提供者，与电视节目、频道管理有关。
+package:mstar.factorymenu.ui：MStar 芯片的工厂菜单界面，用于工厂调试和设置。
+package:com.huawei.himovceie：不太明确具体功能，可能是华为相关的一个隐藏或特定功能的应用。
+package:com.xiaomi.statistic：小米的统计服务，用于收集设备的使用数据和统计信息。
+package:com.xiaomi.account.auth：小米账号的认证服务，用于验证用户的小米账号信息。
+package:com.mstar.tv.service：MStar 芯片相关的电视服务，为电视的基本功能提供支持。
+﻿

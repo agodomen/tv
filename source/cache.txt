@@ -1,0 +1,13 @@
+adb connect 192.168.33.9
+adb devices
+adb shell pm uninstall --user 0 com.cctv.yangshipin.app.androidp
+adb shell pm uninstall --user 0 com.mitv.codec.update
+adb shell pm uninstall --user 0 com.mitv.shoplugin
+adb shell pm uninstall --user 0 com.xm.webcontent
+adb shell pm uninstall --user 0 top.yogiczy.mytv.tv
+adb shell pm uninstall --user 0 com.easy.tvlive
+adb shell pm uninstall --user 0 com.xiaomi.miplay
+adb shell pm uninstall --user 0 com.mitv.mivideoplayer
+adb shell pm uninstall --user 0 com.miui.tv.analytics
+adb shell pm uninstall --user 0 com.mitv.care
+adb shell pm uninstall com.xiaomi.mitv.karaoke.service
